@@ -9,13 +9,11 @@ import { NavController } from '@ionic/angular';
 })
 export class HomePage {
 
-  constructor(private router: Router, private navCtrl: NavController){
+  constructor(private router: Router, private navCtrl: NavController) {
 
   }
 
-  login_page(){
-
+  login_page() {
     this.router.navigate(['/login']);
   }
-
 }
